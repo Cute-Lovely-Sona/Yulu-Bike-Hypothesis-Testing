@@ -74,5 +74,5 @@ Yulu can optimize their operations and improve fleet allocation by:
 
 ## 🔗 Project Link
 
-📄 [Click to View Full Report (PDF)](https://drive.google.com/file/d/1N5j3xPq79R1aiR2Vd0Uh45nB7REQbQ0U/view?usp=sharing)
+📄 [Click to View Full Report (PDF)]([https://drive.google.com/file/d/1N5j3xPq79R1aiR2Vd0Uh45nB7REQbQ0U/view?usp=sharing)](https://drive.google.com/file/d/1bYVsGGsPVeOuyu0LXcD6ih9YQhoca5Fq/view?usp=sharing)
 
