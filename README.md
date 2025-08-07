@@ -1,4 +1,4 @@
-![Yulu Logo](https://upload.wikimedia.org/wikipedia/commons/e/ea/Yulu_Logo.jpg)
+![Yulu Logo](https://drive.google.com/file/d/12tA5msL1J8QMER-NqtkePmu8sRiM5PMd/view?usp=sharing)
 
 # 🚲 Yulu - Hypothesis Testing Business Case
 
