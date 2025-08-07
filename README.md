@@ -1,74 +1,78 @@
-![Yulu](https://upload.wikimedia.org/wikipedia/commons/e/ea/Yulu_Logo.jpg)
+![Yulu Logo](https://upload.wikimedia.org/wikipedia/commons/e/ea/Yulu_Logo.jpg)
 
-# 🚲 Yulu Bike Demand Prediction – Hypothesis Testing Project
+# 🚲 Yulu - Hypothesis Testing Business Case
 
-> This project focuses on identifying which factors significantly impact the demand for shared electric cycles using hypothesis testing.
-
----
-
-## 🚀 Project Overview
-
-Yulu is a micro-mobility platform offering electric cycles. The company faced a decline in demand and wanted to explore key factors affecting rentals such as season, weather, and working day status.
+Yulu is India’s leading micro-mobility platform providing electric cycles for short-distance travel. In this project, I analyzed the **factors that influence demand for rental bikes** using statistical tests like T-test, ANOVA, and Chi-square test.
 
 ---
 
-## 🧠 Key Business Questions
+## 🧠 Problem Statement
 
-- Does working day impact bike rental demand?
-- Is demand different across seasons?
-- Does weather influence the number of rentals?
-- Are weather and season dependent on each other?
-
----
-
-## 📊 Summary of Insights
-
-- ✅ Rentals are higher on **working days**
-- ✅ Rental demand is **not equal across seasons**
-- ✅ Weather significantly affects usage
-- ✅ Weather is dependent on the season
+Due to a drop in revenue, Yulu wants to understand:
+- Which variables significantly affect electric cycle rentals?
+- How well these variables explain the variation in demand?
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 📂 Dataset Information
 
-- Python  
-- Pandas  
-- Matplotlib / Seaborn  
-- SciPy (T-test, ANOVA, Chi-square)  
-- Jupyter Notebook  
+**Target Variable:** `count` – total number of cycles rented  
+**Important Variables:** season, workingday, weather, temp, humidity, windspeed
 
 ---
 
-## 📈 Exploratory Data Analysis (`Yulu_Business_Case_Study_Sona.ipynb`)
+## 📊 EDA Highlights
 
-> 📌 Objective: Explore dataset and find variable relationships
+> 📌 Dataset was explored using visual and statistical summaries.
 
-- Checked datatypes, missing values, and summary
-- Plotted histograms, boxplots, and bar charts
+- Checked missing values, data types, and descriptive stats
+- Plotted histograms, boxplots, and countplots
 - Performed univariate and bivariate analysis
-- Visualized distributions across weather, season, working days
+- Explored effect of season, weather, and workingday on rentals
 
 ---
 
-## 🧪 Hypothesis Testing
+## 🧪 Hypothesis Testing Performed
 
-> 📌 Objective: Test business assumptions with statistical methods
-
-- ✅ **T-test**: Working day vs non-working day rentals
-- ✅ **ANOVA**: Rentals across different seasons and weather
-- ✅ **Chi-square test**: Dependency between weather and season
+- ✅ **T-test**: Compared rentals on working vs. non-working days  
+- ✅ **ANOVA**: Tested if rentals differ across seasons and weather  
+- ✅ **Chi-square test**: Checked if season and weather are related
 
 ---
 
-## 📂 Dataset Info
+## 🛠️ Tools & Libraries Used
 
-- Columns: datetime, season, holiday, workingday, weather, temp, humidity, windspeed, casual, registered, count  
-- Target Variable: **count** (total rentals)
+- **Python** (Jupyter Notebook)  
+- **Pandas, NumPy** – data wrangling  
+- **Matplotlib, Seaborn** – data visualization  
+- **SciPy** – statistical testing
 
 ---
 
-## 📌 Outcome
+## ✅ Key Insights
 
-Yulu can optimize fleet deployment based on season, working day, and weather to increase overall demand and operational efficiency.
+- Rentals are **higher on working days**
+- **Seasons and weather** both have significant impact on rentals
+- Weather and season are **statistically dependent**
+
+---
+
+## 📌 Project Outcome
+
+Yulu can optimize their operations and improve fleet allocation by:
+- Focusing on peak working days  
+- Preparing for seasonal/weather-driven demand patterns
+
+---
+
+## 📁 Files Included
+
+- `Yulu_Business_Case_Study_Sona.ipynb` – Full notebook with code and visualizations  
+- `Yulu_Report.pdf` – Final summary report with insights (shared via Drive)
+
+---
+
+## 🔗 Project Link
+
+📄 [Click to View Full Report (PDF)](https://drive.google.com/file/d/1N5j3xPq79R1aiR2Vd0Uh45nB7REQbQ0U/view?usp=sharing)
 
